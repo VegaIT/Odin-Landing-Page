@@ -1,0 +1,36 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+header {
+  color:#e5e7eb;
+  font-size: 18px;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 15%;
+
+}
+
+.logo {
+  margin-right: auto;
+  font-weight: 900;
+  font-size: 24px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+
+}
+
+li {
+  list-style: none;
+  flex-wrap: nowrap;
+  display: inline-block;
+  padding: 0px 20px;
+}
