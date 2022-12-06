@@ -11,21 +11,18 @@ header {
   align-items: center;
   justify-content: flex-end;
   padding: 5px 15%;
-
 }
 
 .logo {
   margin-right: auto;
   font-weight: 900;
   font-size: 24px;
-
 }
 
 a {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
-
 }
 
 li {
@@ -33,4 +30,50 @@ li {
   flex-wrap: nowrap;
   display: inline-block;
   padding: 0px 20px;
+}
+
+main {
+  color:#e5e7eb;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  padding: 75px 15%;
+  gap: 20px;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 10px 0px;
+}
+
+.subtext {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+button {
+  background-color:  #3882f6;
+  color:#e5e7eb;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.left {
+  flex: 1 1 0px;
+}
+
+.right {
+  padding: 20px;
+  flex: 1 1 0px;
+}
+
+.luna_top {
+  width: 100%;
 }
