@@ -108,3 +108,27 @@ img {
   border: 5px solid #3882f6;
   border-radius: 12px;
 }
+
+section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+
+}
+
+.quote {
+  width: 35%;
+}
+
+.words {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.name {
+  font-weight: bold;
+  text-align: right;
+}
