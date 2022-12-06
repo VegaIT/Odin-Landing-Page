@@ -17,6 +17,7 @@ header {
   margin-right: auto;
   font-weight: 900;
   font-size: 24px;
+  color: #f9faf8;
 }
 
 a {
@@ -52,7 +53,7 @@ main {
   margin: 10px 0px;
 }
 
-button {
+.learn_more {
   background-color:  #3882f6;
   color:#e5e7eb;
   font-size: 18px;
@@ -115,7 +116,6 @@ section {
   justify-content: center;
   align-items: center;
   height: 400px;
-
 }
 
 .quote {
@@ -131,4 +131,39 @@ section {
 .name {
   font-weight: bold;
   text-align: right;
+}
+
+.call_button {
+
+  border-color: #f9faf8;
+  color:#f9faf8;
+  font-size: 18px;
+  border-radius: 14px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0px;
+  font-weight: bold;
+  background: transparent;
+  border-style: solid;
+}
+
+.action {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 7% 15%;
+  padding: 40px;
+}
+
+.call_title {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.call_text {
+  color: #f9faf8;
+  font-size: 18px;
 }
